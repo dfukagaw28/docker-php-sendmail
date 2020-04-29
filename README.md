@@ -37,3 +37,12 @@ On the container:
 ```
 (container)# php -r 'mail("user@gmail.com", "test (outbound)", "Hello!");'
 ```
+
+## References
+
+* msmtp
+  * https://marlam.de/msmtp/
+  * https://wiki.archlinux.org/index.php/Msmtp
+  * https://manpages.debian.org/jessie/msmtp/msmtp.1.en.html
+* PHP
+  * https://www.php.net/manual/en/function.mail.php
