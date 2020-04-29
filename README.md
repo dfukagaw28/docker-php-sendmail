@@ -23,7 +23,7 @@ On the docker host:
 (container)#
 ```
 
-### Test (to the internal address)
+### Test (to an internal address)
 
 On the container:
 
@@ -31,7 +31,7 @@ On the container:
 (container)# php -r 'mail("user@example.com", "test (internal)", "Hello!");'
 ```
 
-### Test (to the public address)
+### Test (to a public address)
 
 ```
 (container)# php -r 'mail("user@gmail.com", "test (outbound)", "Hello!");'
