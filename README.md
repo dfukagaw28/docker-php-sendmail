@@ -15,10 +15,11 @@ It is expected to work behind a restricted MTA.
 ### Buld & run
 
 On the docker host:
+(provided that your SMTP domain is `example.com`)
 
 ```
 # cd /path/to/this/directory
-# docker build -t test-smtp .
+# docker build -t test-smtp --build-arg SMTP_DOMAIN=example.com .
 # docker run --rm -it test-smtp /bin/bash
 (container)#
 ```
